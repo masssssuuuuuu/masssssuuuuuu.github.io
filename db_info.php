@@ -1,7 +1,7 @@
 <?php
-//データベースに登録
-$dsn = 'mysql:dbname=tb220306db;host=localhost';//接続先
-$user = 'tb-220306';//ユーザー名
+//データmysql：dbname =データベース名
+
+$   /
 $password = 'LbbgbegHLg';//パスワード
 
 $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
